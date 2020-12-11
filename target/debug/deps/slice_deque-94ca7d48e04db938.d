@@ -1,0 +1,11 @@
+/mnt/c/Users/grayw/OneDrive/Code/my-projects/speed-racer/target/debug/deps/slice_deque-94ca7d48e04db938.rmeta: /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs
+
+/mnt/c/Users/grayw/OneDrive/Code/my-projects/speed-racer/target/debug/deps/libslice_deque-94ca7d48e04db938.rlib: /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs
+
+/mnt/c/Users/grayw/OneDrive/Code/my-projects/speed-racer/target/debug/deps/slice_deque-94ca7d48e04db938.d: /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs
+
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs:

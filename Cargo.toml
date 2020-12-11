@@ -1,0 +1,13 @@
+[package]
+name = "speed-racer"
+version = "0.1.0"
+authors = ["Mikah Niehaus <Graywolf.niehaus@live.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termion = "1.5.5"
+crossterm = "0.17.5"
+rusty_audio = "1.1.4"
+rusty_time = "0.11.0"

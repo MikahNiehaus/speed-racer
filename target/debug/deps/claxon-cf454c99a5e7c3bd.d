@@ -1,0 +1,13 @@
+/mnt/c/Users/grayw/OneDrive/Code/my-projects/speed-racer/target/debug/deps/claxon-cf454c99a5e7c3bd.rmeta: /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/lib.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/crc.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/error.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/frame.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/input.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/metadata.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/subframe.rs
+
+/mnt/c/Users/grayw/OneDrive/Code/my-projects/speed-racer/target/debug/deps/libclaxon-cf454c99a5e7c3bd.rlib: /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/lib.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/crc.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/error.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/frame.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/input.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/metadata.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/subframe.rs
+
+/mnt/c/Users/grayw/OneDrive/Code/my-projects/speed-racer/target/debug/deps/claxon-cf454c99a5e7c3bd.d: /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/lib.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/crc.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/error.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/frame.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/input.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/metadata.rs /home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/subframe.rs
+
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/lib.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/crc.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/error.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/frame.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/input.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/metadata.rs:
+/home/mikah/.cargo/registry/src/github.com-1ecc6299db9ec823/claxon-0.4.3/src/subframe.rs:
