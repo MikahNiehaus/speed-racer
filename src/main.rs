@@ -1,10 +1,11 @@
-use crate::props::{startPage, car, road};
+use crate::props::{startPage, car, road, crashSign};
 use rand::Rng;
 use std::io::{stdin, stdout, Write};
 use termion::event::Key;
 use termion::input::TermRead;
 use termion::raw::IntoRawMode;
 mod props;
+use std::thread;
 
 // use std::time:: Duration;
 // use std::thread;
@@ -30,7 +31,7 @@ fn main()  {
  
 //newing up moc classes
     let mut _car = Car {
-        location: 100,
+        location: 80,
     };
     let mut _road = Road {
         location: 50,
@@ -65,27 +66,92 @@ fn main()  {
         //i reckon this speaks for itself
         match c.unwrap() {
 //start recognizing keys
-            Key::Char('q') => {_state.quit = true; break;},
+            Key::Char('q') => { break;},
             Key::Char('s') => { road(_road.location);car(_car.location); _state.start = true},
-            Key::Char(' ') => { _road.location -= 8;  _road.location += rng.gen_range(0,15); road(_road.location);car(_car.location);},
+            Key::Up => { 
+                //road 
+                let x = rng.gen_range(0,13); 
+                _road.location -= 6;
+                _road.location += x;
+                if _road.location < 14 {
+                    _road.location += 13;
+                   }else if _road.location > 150{
+                    _road.location -= 13; 
+                   }
+                   //start render
+                   if _state.start == true{
+                road(_road.location); car(_car.location);
+                   }
+                //crash
+                if _road.location > _car.location || _road.location + 65  < _car.location {
+                    _state.start=false; _road.location = 50; _car.location = 80;
+                    crashSign();
+                    thread::sleep_ms(2000);
+                    print!("{}[2J", 27 as char);
+                    break;
+                }
+            },
 
-            Key::Left => { _road.location -= 3;  _road.location += rng.gen_range(0,7); 
-                 road(_road.location);
-                 if _car.location > 2 && _car.location < 200{
+            Key::Left => {  
+                //road 
+                let x = rng.gen_range(0,13); 
+                _road.location -= 6;
+                _road.location += x;
+                if _road.location < 14 {
+                    _road.location += 13;
+                   }else if _road.location > 150{
+                    _road.location -= 13; 
+                   }
+                
+                   //car
+                 if _car.location > 6 && _car.location < 250{
                  _car.location-=8;
                  }else{
                     _car.location+=8;
                  }
-                  car(_car.location);
+                  //start render
+                  if _state.start == true{
+                    road(_road.location); car(_car.location);
+                       }
+                       //crash
+                if _road.location > _car.location || _road.location + 65  < _car.location {
+                    _state.start=false; _road.location = 50; _car.location = 80;
+                    crashSign();
+                    thread::sleep_ms(2000);
+                    print!("{}[2J", 27 as char);
+                    break;
+                }
                 },
-            Key::Right => {  _road.location -= 3;  _road.location += rng.gen_range(0,7); 
-                road(_road.location);
+            Key::Right => {  
+                //road
+               let x = rng.gen_range(0,13); 
+                _road.location -= 6;
+                _road.location += x;
+                if _road.location < 14 {
+                    _road.location += 13;
+                   }else if _road.location > 150{
+                    _road.location -= 13; 
+                   }
+               
+                //car
                 if _car.location > 2 && _car.location < 200{
                     _car.location+=8;
                     }else{
                         _car.location-=8;  
                     }
-                car(_car.location);},
+                //start render
+                if _state.start == true{
+                    road(_road.location); car(_car.location);
+                       }
+                    //crash
+                if _road.location > _car.location || _road.location + 65  < _car.location {
+                    _state.start=false; _road.location = 50; _car.location = 80;
+                    crashSign();
+                    thread::sleep_ms(2000);
+                    print!("{}[2J", 27 as char);
+                    break;
+                }
+                    },
                 Key::Char('z') => {_state.start = true; },
            
             _ => (),
