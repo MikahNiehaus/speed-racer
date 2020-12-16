@@ -6,7 +6,7 @@ use termion::input::TermRead;
 use termion::raw::IntoRawMode;
 mod props;
 use std::thread;
-// use std::time:: Duration;
+use std::time:: Duration;
 // use std::thread;
 
 #[derive(Debug)] // This enables using the debugging format string "{:?}"
@@ -66,7 +66,7 @@ fn main()  {
     startPage();
    //detecting keydown events
     for c in stdin.keys() {
-
+              
         //clearing the screen and going to top left corner
         write!(
             stdout,
@@ -80,7 +80,8 @@ fn main()  {
         match c.unwrap() {
 //start recognizing keys
             Key::Char('q') => { break;},
-            Key::Char('s') => { road(_road.location,2);car(_car.location); _state.start = true},
+            Key::Char('s') => { road(_road.location,2);car(_car.location); _state.start = true;
+            },
             Key::Char(' ') => { 
                 //road 
                 if _state.start == true{
@@ -139,9 +140,9 @@ fn main()  {
                 }
                    //car
                  if _car.location > 6 && _car.location < 250{
-                 _car.location-=8;
+                 _car.location-=10;
                  }else{
-                    _car.location+=8;
+                    _car.location+=10;
                  }
                   //start render
                     road(_road.location, _road.direction); car(_car.location);
@@ -176,9 +177,9 @@ fn main()  {
                 }
                 //car
                 if _car.location > 2 && _car.location < 200{
-                    _car.location+=8;
+                    _car.location+=10;
                     }else{
-                        _car.location-=8;  
+                        _car.location-=10;  
                     }
                 //start render
                 road(_road.location, _road.direction); car(_car.location);
@@ -199,6 +200,7 @@ fn main()  {
 
 
         stdout.flush().unwrap();
+      
        if _state.start == false {
             startPage();
         } 
